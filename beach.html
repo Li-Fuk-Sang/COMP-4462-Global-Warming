@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c92135ba3b186d42d278a3c03d7e72c1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c92135ba3b186d42d278a3c03d7e72c1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c92135ba3b186d42d278a3c03d7e72c1 = L.map(
+                "map_c92135ba3b186d42d278a3c03d7e72c1",
+                {
+                    center: [22.29739489064593, 114.12283010483314],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5c3f94c044e5eab75d65bd3ae483ced2 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+            var marker_3346414cab37f4902d3805f1ed08040b = L.marker(
+                [22.36480548572025, 114.05594743853688],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_c75b43eee2eb7a6f34dddc26ddd934d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e723f340f8eee64637fd0f39a994860 = $(`<div id="html_5e723f340f8eee64637fd0f39a994860" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Anglers' Beach .html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_c75b43eee2eb7a6f34dddc26ddd934d5.setContent(html_5e723f340f8eee64637fd0f39a994860);
+            
+        
+
+        marker_3346414cab37f4902d3805f1ed08040b.bindPopup(popup_c75b43eee2eb7a6f34dddc26ddd934d5)
+        ;
+
+        
+    
+    
+            var marker_79b50bf6bd7db9ab67eb8d07f7309bc8 = L.marker(
+                [22.36745829334091, 114.08602772986136],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_8618b8c2cf9093cd33f064433a23b4ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53282ac4897ba4a4374b2ad3e4b875fa = $(`<div id="html_53282ac4897ba4a4374b2ad3e4b875fa" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Approach Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_8618b8c2cf9093cd33f064433a23b4ff.setContent(html_53282ac4897ba4a4374b2ad3e4b875fa);
+            
+        
+
+        marker_79b50bf6bd7db9ab67eb8d07f7309bc8.bindPopup(popup_8618b8c2cf9093cd33f064433a23b4ff)
+        ;
+
+        
+    
+    
+            var marker_a7efc8d78ac253ce9f3d857d0db12489 = L.marker(
+                [22.246563430876154, 114.24716255990234],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_8b68cb45b4f760a223fe5fa6dc7f0526 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afa4ef44b98b3a38a9e51fdcecb57232 = $(`<div id="html_afa4ef44b98b3a38a9e51fdcecb57232" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Big Wave Bay Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_8b68cb45b4f760a223fe5fa6dc7f0526.setContent(html_afa4ef44b98b3a38a9e51fdcecb57232);
+            
+        
+
+        marker_a7efc8d78ac253ce9f3d857d0db12489.bindPopup(popup_8b68cb45b4f760a223fe5fa6dc7f0526)
+        ;
+
+        
+    
+    
+            var marker_110f1570e6497fedc97b46fc8125d2eb = L.marker(
+                [22.37274748333596, 113.95645181215724],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_5e572af96ece55a3e9c6b38f9b9084f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10545686483fe6bb5efe62e055d9e474 = $(`<div id="html_10545686483fe6bb5efe62e055d9e474" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Butterfly Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_5e572af96ece55a3e9c6b38f9b9084f7.setContent(html_10545686483fe6bb5efe62e055d9e474);
+            
+        
+
+        marker_110f1570e6497fedc97b46fc8125d2eb.bindPopup(popup_5e572af96ece55a3e9c6b38f9b9084f7)
+        ;
+
+        
+    
+    
+            var marker_699c55d25cfdec62e36155b05100ae1c = L.marker(
+                [22.37355342015393, 113.98677173199845],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_7a33a77b6dfcff10321cfe05c7c5ce35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9f551cb9367ff18dfb6df2aa799224d = $(`<div id="html_b9f551cb9367ff18dfb6df2aa799224d" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Cafeteria New Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_7a33a77b6dfcff10321cfe05c7c5ce35.setContent(html_b9f551cb9367ff18dfb6df2aa799224d);
+            
+        
+
+        marker_699c55d25cfdec62e36155b05100ae1c.bindPopup(popup_7a33a77b6dfcff10321cfe05c7c5ce35)
+        ;
+
+        
+    
+    
+            var marker_845ace5ec05a68d5cbcb9755cf500341 = L.marker(
+                [22.375270147126027, 113.98418539248289],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_ee07e59cbbc91ac0b9c15622f38da77c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fad6098744e11345c7f08a47451a5579 = $(`<div id="html_fad6098744e11345c7f08a47451a5579" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Cafeteria Old Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_ee07e59cbbc91ac0b9c15622f38da77c.setContent(html_fad6098744e11345c7f08a47451a5579);
+            
+        
+
+        marker_845ace5ec05a68d5cbcb9755cf500341.bindPopup(popup_ee07e59cbbc91ac0b9c15622f38da77c)
+        ;
+
+        
+    
+    
+            var marker_edbb1c3c994b12c49f783049c9186e45 = L.marker(
+                [22.36757972803291, 114.074908251537],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_a3fc898f96aa3dc8aeccdc2bdc8ad846 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45ef3750137be4b8404e4b3dc7a86b21 = $(`<div id="html_45ef3750137be4b8404e4b3dc7a86b21" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Casam Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_a3fc898f96aa3dc8aeccdc2bdc8ad846.setContent(html_45ef3750137be4b8404e4b3dc7a86b21);
+            
+        
+
+        marker_edbb1c3c994b12c49f783049c9186e45.bindPopup(popup_a3fc898f96aa3dc8aeccdc2bdc8ad846)
+        ;
+
+        
+    
+    
+            var marker_b36959e1f8689d7a816aeca84e37a406 = L.marker(
+                [22.37956791534192, 113.97960833069284],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_2718c66e278172661356703e8c8d70af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ace3345b00289821948a2f6cd5a046c3 = $(`<div id="html_ace3345b00289821948a2f6cd5a046c3" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Castle Peak Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_2718c66e278172661356703e8c8d70af.setContent(html_ace3345b00289821948a2f6cd5a046c3);
+            
+        
+
+        marker_b36959e1f8689d7a816aeca84e37a406.bindPopup(popup_2718c66e278172661356703e8c8d70af)
+        ;
+
+        
+    
+    
+            var marker_b9386ecb2bfb751f5663c0c00db027e5 = L.marker(
+                [22.21039178253311, 114.02993887394258],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_92f397a055570c40f467db98a547f6a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e8a27054b34e04380c6a85922d23980 = $(`<div id="html_7e8a27054b34e04380c6a85922d23980" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Cheung Chau Tung Wan Beach .html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_92f397a055570c40f467db98a547f6a6.setContent(html_7e8a27054b34e04380c6a85922d23980);
+            
+        
+
+        marker_b9386ecb2bfb751f5663c0c00db027e5.bindPopup(popup_92f397a055570c40f467db98a547f6a6)
+        ;
+
+        
+    
+    
+            var marker_0742afd618e0b1923a904bfbb979ca01 = L.marker(
+                [22.21762042237304, 114.20216687286909],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_f23cdf6c29128f6d809d5fbe76c61234 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62fe799c04d10a0526dd86f42285ac0f = $(`<div id="html_62fe799c04d10a0526dd86f42285ac0f" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Chung Hom Kok Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_f23cdf6c29128f6d809d5fbe76c61234.setContent(html_62fe799c04d10a0526dd86f42285ac0f);
+            
+        
+
+        marker_0742afd618e0b1923a904bfbb979ca01.bindPopup(popup_f23cdf6c29128f6d809d5fbe76c61234)
+        ;
+
+        
+    
+    
+            var marker_2a0634868ee5e81d199b3d6c23838114 = L.marker(
+                [22.291134944680756, 114.29099957792428],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_5e5d9e5e4002d476d6d45851417fa538 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cad9022e778b641e7d587d728d81d9e8 = $(`<div id="html_cad9022e778b641e7d587d728d81d9e8" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Clear Water Bay First Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_5e5d9e5e4002d476d6d45851417fa538.setContent(html_cad9022e778b641e7d587d728d81d9e8);
+            
+        
+
+        marker_2a0634868ee5e81d199b3d6c23838114.bindPopup(popup_5e5d9e5e4002d476d6d45851417fa538)
+        ;
+
+        
+    
+    
+            var marker_f1e106902cf8bb3daffbfca10c1ec21a = L.marker(
+                [22.288241729819067, 114.28776583280896],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_575a722ae7c349835f642838b0947dc4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ba88748e22c22af26e422c4c219b470 = $(`<div id="html_3ba88748e22c22af26e422c4c219b470" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Clear Water Bay Second Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_575a722ae7c349835f642838b0947dc4.setContent(html_3ba88748e22c22af26e422c4c219b470);
+            
+        
+
+        marker_f1e106902cf8bb3daffbfca10c1ec21a.bindPopup(popup_575a722ae7c349835f642838b0947dc4)
+        ;
+
+        
+    
+    
+            var marker_765de35cfe87137521d95d7402ea53dd = L.marker(
+                [22.24389408672067, 114.1880410488942],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_81ef68bdceb31b4ec04c41e7b4d8310c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90deb56259fee4f6e48bb4c185ec5504 = $(`<div id="html_90deb56259fee4f6e48bb4c185ec5504" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Deep Water Bay Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_81ef68bdceb31b4ec04c41e7b4d8310c.setContent(html_90deb56259fee4f6e48bb4c185ec5504);
+            
+        
+
+        marker_765de35cfe87137521d95d7402ea53dd.bindPopup(popup_81ef68bdceb31b4ec04c41e7b4d8310c)
+        ;
+
+        
+    
+    
+            var marker_850585cef31a8029574a65372a28fbcd = L.marker(
+                [22.29819514923795, 114.01536738375384],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_7768b556e04a4beea765f24ccd8c6f9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4be0451b5f0b1a9ed2b624d96da87517 = $(`<div id="html_4be0451b5f0b1a9ed2b624d96da87517" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Discovery Bay.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_7768b556e04a4beea765f24ccd8c6f9e.setContent(html_4be0451b5f0b1a9ed2b624d96da87517);
+            
+        
+
+        marker_850585cef31a8029574a65372a28fbcd.bindPopup(popup_7768b556e04a4beea765f24ccd8c6f9e)
+        ;
+
+        
+    
+    
+            var marker_7a14413ec7e11093fb2d2b0eb4fee5ec = L.marker(
+                [22.36392464605362, 114.06927955911142],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_9c1475866d52faa059b70bbcf58f1704 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_057e173943cda18a896d34341bb31fc1 = $(`<div id="html_057e173943cda18a896d34341bb31fc1" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Gemini Beaches.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_9c1475866d52faa059b70bbcf58f1704.setContent(html_057e173943cda18a896d34341bb31fc1);
+            
+        
+
+        marker_7a14413ec7e11093fb2d2b0eb4fee5ec.bindPopup(popup_9c1475866d52faa059b70bbcf58f1704)
+        ;
+
+        
+    
+    
+            var marker_f1a0cb2b8a26a610842deee6aef8e073 = L.marker(
+                [22.37219432725217, 113.98801522210496],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_31c9158e28f11ed45cb2766919aadbb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_772e84d1c00ed1b2335c45ed86cced04 = $(`<div id="html_772e84d1c00ed1b2335c45ed86cced04" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Golden Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_31c9158e28f11ed45cb2766919aadbb0.setContent(html_772e84d1c00ed1b2335c45ed86cced04);
+            
+        
+
+        marker_f1a0cb2b8a26a610842deee6aef8e073.bindPopup(popup_31c9158e28f11ed45cb2766919aadbb0)
+        ;
+
+        
+    
+    
+            var marker_5ba771d65b92702aed9ddf6ccd1de3ae = L.marker(
+                [22.22403374602501, 114.21507500587828],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_05b15b16591be7277d87493e7ce6a34c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d54667374636a296f3c6bf5f7053edf = $(`<div id="html_5d54667374636a296f3c6bf5f7053edf" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Hairpin Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_05b15b16591be7277d87493e7ce6a34c.setContent(html_5d54667374636a296f3c6bf5f7053edf);
+            
+        
+
+        marker_5ba771d65b92702aed9ddf6ccd1de3ae.bindPopup(popup_05b15b16591be7277d87493e7ce6a34c)
+        ;
+
+        
+    
+    
+            var marker_3579c1ea10a92c80de710e74b57ee79b = L.marker(
+                [22.35721000820716, 114.29429223973942],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_f1253df1c42b81c25204dd2578a59477 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1dd5701150db9b233e380f732a773c09 = $(`<div id="html_1dd5701150db9b233e380f732a773c09" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Hap Mun Bay Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_f1253df1c42b81c25204dd2578a59477.setContent(html_1dd5701150db9b233e380f732a773c09);
+            
+        
+
+        marker_3579c1ea10a92c80de710e74b57ee79b.bindPopup(popup_f1253df1c42b81c25204dd2578a59477)
+        ;
+
+        
+    
+    
+            var marker_b941ef0681678c84045be987db0a0af6 = L.marker(
+                [22.36483488529008, 114.07110683982089],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_5bbd2470e13d3d12b1458ca790a8d48e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea4ddedfffda1f7d57dc2a377d3f24c2 = $(`<div id="html_ea4ddedfffda1f7d57dc2a377d3f24c2" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Hoi Mei Wan Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_5bbd2470e13d3d12b1458ca790a8d48e.setContent(html_ea4ddedfffda1f7d57dc2a377d3f24c2);
+            
+        
+
+        marker_b941ef0681678c84045be987db0a0af6.bindPopup(popup_5bbd2470e13d3d12b1458ca790a8d48e)
+        ;
+
+        
+    
+    
+            var marker_7a145b449911748a85383ed01015edac = L.marker(
+                [22.218728731932902, 114.11971451468224],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_8b344c573c19a7f3f2e1021eaafa7c28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b29678fbe58c470b427fcb5113dc2aa7 = $(`<div id="html_b29678fbe58c470b427fcb5113dc2aa7" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Hung Shing Yeh Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_8b344c573c19a7f3f2e1021eaafa7c28.setContent(html_b29678fbe58c470b427fcb5113dc2aa7);
+            
+        
+
+        marker_7a145b449911748a85383ed01015edac.bindPopup(popup_8b344c573c19a7f3f2e1021eaafa7c28)
+        ;
+
+        
+    
+    
+            var marker_46758049ae7651b3080c88f9baf23346 = L.marker(
+                [22.37653783528402, 113.98144016865707],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_b02aca487c90c2b1376efe9513c52f16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdbd8368fb2d59f4a95718fffc118703 = $(`<div id="html_bdbd8368fb2d59f4a95718fffc118703" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Kadoorie Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_b02aca487c90c2b1376efe9513c52f16.setContent(html_bdbd8368fb2d59f4a95718fffc118703);
+            
+        
+
+        marker_46758049ae7651b3080c88f9baf23346.bindPopup(popup_b02aca487c90c2b1376efe9513c52f16)
+        ;
+
+        
+    
+    
+            var marker_d59c6bdb5bee1456d44ac9ebc059f6a2 = L.marker(
+                [22.367692267734316, 114.28735926386187],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_dcbc6a906b7932fc2251cfe1d34d37bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1415700c170b2b2559531741e8e8d8e = $(`<div id="html_c1415700c170b2b2559531741e8e8d8e" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Kiu Tsui (New).html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_dcbc6a906b7932fc2251cfe1d34d37bd.setContent(html_c1415700c170b2b2559531741e8e8d8e);
+            
+        
+
+        marker_d59c6bdb5bee1456d44ac9ebc059f6a2.bindPopup(popup_dcbc6a906b7932fc2251cfe1d34d37bd)
+        ;
+
+        
+    
+    
+            var marker_d511dd69b4f84e6a20b2774f37e6213a = L.marker(
+                [22.36831427364566, 114.28876054362284],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_0a4d502f3ffe7deb4a092c49f0f55231 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73fac2e3a3ae3bcb69a907dd5bdb460c = $(`<div id="html_73fac2e3a3ae3bcb69a907dd5bdb460c" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Kiu Tsui Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_0a4d502f3ffe7deb4a092c49f0f55231.setContent(html_73fac2e3a3ae3bcb69a907dd5bdb460c);
+            
+        
+
+        marker_d511dd69b4f84e6a20b2774f37e6213a.bindPopup(popup_0a4d502f3ffe7deb4a092c49f0f55231)
+        ;
+
+        
+    
+    
+            var marker_4f3e54a264c42012ab18b7063d4b7ec7 = L.marker(
+                [22.207268408799155, 114.03409159923972],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_f6a5cfd70b41aecf6b2dacd5f9b9aa3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4880b51277df5762ae8f88a4ec99ef83 = $(`<div id="html_4880b51277df5762ae8f88a4ec99ef83" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Kwun Yam Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_f6a5cfd70b41aecf6b2dacd5f9b9aa3e.setContent(html_4880b51277df5762ae8f88a4ec99ef83);
+            
+        
+
+        marker_4f3e54a264c42012ab18b7063d4b7ec7.bindPopup(popup_f6a5cfd70b41aecf6b2dacd5f9b9aa3e)
+        ;
+
+        
+    
+    
+            var marker_c75479ed1eda640a5c041065b41c9d40 = L.marker(
+                [22.36763992994288, 114.07613538100452],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_8b2565201d86efbc1884220ddc6b6abc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00e109b449f7dab2df2015b0c134a6d9 = $(`<div id="html_00e109b449f7dab2df2015b0c134a6d9" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Lido Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_8b2565201d86efbc1884220ddc6b6abc.setContent(html_00e109b449f7dab2df2015b0c134a6d9);
+            
+        
+
+        marker_c75479ed1eda640a5c041065b41c9d40.bindPopup(popup_8b2565201d86efbc1884220ddc6b6abc)
+        ;
+
+        
+    
+    
+            var marker_96a109912195d09f72957c989f82d40e = L.marker(
+                [22.20441856024502, 114.12263346461684],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_092b1b7a4aaf45ac3afceab1219ea1a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86ff9af16ebdd34592af1dc658bf0d96 = $(`<div id="html_86ff9af16ebdd34592af1dc658bf0d96" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Lo So Shing Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_092b1b7a4aaf45ac3afceab1219ea1a3.setContent(html_86ff9af16ebdd34592af1dc658bf0d96);
+            
+        
+
+        marker_96a109912195d09f72957c989f82d40e.bindPopup(popup_092b1b7a4aaf45ac3afceab1219ea1a3)
+        ;
+
+        
+    
+    
+            var marker_59e516e3a31b2ee96865984151746cba = L.marker(
+                [22.23239573416376, 113.94544301799574],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_aa7e9642b4f03433535fc76e6c3b1557 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eea806f443849339f919530a256c394f = $(`<div id="html_eea806f443849339f919530a256c394f" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Lower Cheung Sha Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_aa7e9642b4f03433535fc76e6c3b1557.setContent(html_eea806f443849339f919530a256c394f);
+            
+        
+
+        marker_59e516e3a31b2ee96865984151746cba.bindPopup(popup_aa7e9642b4f03433535fc76e6c3b1557)
+        ;
+
+        
+    
+    
+            var marker_5af7238fcbaa5d0b0cc77fb59d0a63ec = L.marker(
+                [22.34998340347905, 114.061677555632],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_32a666a7bf4023c3debbf4060a09a960 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c637757ee9308c8e749cc65de29e28ab = $(`<div id="html_c637757ee9308c8e749cc65de29e28ab" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Ma Wan Tung Wan Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_32a666a7bf4023c3debbf4060a09a960.setContent(html_c637757ee9308c8e749cc65de29e28ab);
+            
+        
+
+        marker_5af7238fcbaa5d0b0cc77fb59d0a63ec.bindPopup(popup_32a666a7bf4023c3debbf4060a09a960)
+        ;
+
+        
+    
+    
+            var marker_3fefb4df959fa0e00ed3c7b4bc3925cc = L.marker(
+                [22.229704285379025, 114.19808455927304],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_c087e0db329d46f20525cf67e71c1263 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c58d3392e4a896cd5f419671e11fe7f = $(`<div id="html_2c58d3392e4a896cd5f419671e11fe7f" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Middle Bay Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_c087e0db329d46f20525cf67e71c1263.setContent(html_2c58d3392e4a896cd5f419671e11fe7f);
+            
+        
+
+        marker_3fefb4df959fa0e00ed3c7b4bc3925cc.bindPopup(popup_c087e0db329d46f20525cf67e71c1263)
+        ;
+
+        
+    
+    
+            var marker_be06b0e9056e378b5fcd5624b51d3b15 = L.marker(
+                [22.239701454653225, 113.97678100913038],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_29a47168a5ce4b54f9d5b8e6b6c22aa7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e85267395cb99a0eea95611d4a9c327 = $(`<div id="html_5e85267395cb99a0eea95611d4a9c327" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Pui O Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_29a47168a5ce4b54f9d5b8e6b6c22aa7.setContent(html_5e85267395cb99a0eea95611d4a9c327);
+            
+        
+
+        marker_be06b0e9056e378b5fcd5624b51d3b15.bindPopup(popup_29a47168a5ce4b54f9d5b8e6b6c22aa7)
+        ;
+
+        
+    
+    
+            var marker_05291e07d6bf46d165e244238b655fed = L.marker(
+                [22.23636757625453, 114.19637631530613],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_83e8f1fcaf5070e0dc692e91f915baa5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0380e713293e8227d7256454563ea539 = $(`<div id="html_0380e713293e8227d7256454563ea539" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Repulse Bay Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_83e8f1fcaf5070e0dc692e91f915baa5.setContent(html_0380e713293e8227d7256454563ea539);
+            
+        
+
+        marker_05291e07d6bf46d165e244238b655fed.bindPopup(popup_83e8f1fcaf5070e0dc692e91f915baa5)
+        ;
+
+        
+    
+    
+            var marker_98ae0ac5658fb21c97856e4f45373655 = L.marker(
+                [22.23170452966603, 114.25188280859116],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_a36f7319c493ff76323bbaf1bfbe8d3b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_268a640982aa8ac0b70bebaa241c5c16 = $(`<div id="html_268a640982aa8ac0b70bebaa241c5c16" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Rocky Bay Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_a36f7319c493ff76323bbaf1bfbe8d3b.setContent(html_268a640982aa8ac0b70bebaa241c5c16);
+            
+        
+
+        marker_98ae0ac5658fb21c97856e4f45373655.bindPopup(popup_a36f7319c493ff76323bbaf1bfbe8d3b)
+        ;
+
+        
+    
+    
+            var marker_6e7f1401a25847347f33c52c3950ab5d = L.marker(
+                [22.231415352784676, 114.25203807769596],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_c630d3567bf51a63ff8e05d61c10fa5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5089ce533685562795012def00bb07ed = $(`<div id="html_5089ce533685562795012def00bb07ed" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Shek O Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_c630d3567bf51a63ff8e05d61c10fa5f.setContent(html_5089ce533685562795012def00bb07ed);
+            
+        
+
+        marker_6e7f1401a25847347f33c52c3950ab5d.bindPopup(popup_c630d3567bf51a63ff8e05d61c10fa5f)
+        ;
+
+        
+    
+    
+            var marker_ecc4dc90725d0afa332434f718e62d16 = L.marker(
+                [22.270584643245883, 113.99938494351966],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_23866eb8273330018ec8e3ef887b293e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ca50bcbe2193c098891c176e0c07de8 = $(`<div id="html_8ca50bcbe2193c098891c176e0c07de8" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Silver Mine Bay Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_23866eb8273330018ec8e3ef887b293e.setContent(html_8ca50bcbe2193c098891c176e0c07de8);
+            
+        
+
+        marker_ecc4dc90725d0afa332434f718e62d16.bindPopup(popup_23866eb8273330018ec8e3ef887b293e)
+        ;
+
+        
+    
+    
+            var marker_805b5d0b79e842ac05c524722f71a984 = L.marker(
+                [22.322604403568278, 114.27226275860988],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_fc4ed38fa3ac6cf4e66d34568b23a9f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a25785278f9d78e43fa3dd9f4325a29 = $(`<div id="html_9a25785278f9d78e43fa3dd9f4325a29" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Silverstrand Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_fc4ed38fa3ac6cf4e66d34568b23a9f1.setContent(html_9a25785278f9d78e43fa3dd9f4325a29);
+            
+        
+
+        marker_805b5d0b79e842ac05c524722f71a984.bindPopup(popup_fc4ed38fa3ac6cf4e66d34568b23a9f1)
+        ;
+
+        
+    
+    
+            var marker_1b67e41ef9f54ecadca8a841c80ba08b = L.marker(
+                [22.22495555244463, 114.1975634549142],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_f96f43662f9d3d9cda6dd4c7e7573314 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d3eea678970dad35fe75aa49072bf27 = $(`<div id="html_7d3eea678970dad35fe75aa49072bf27" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/South Bay Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_f96f43662f9d3d9cda6dd4c7e7573314.setContent(html_7d3eea678970dad35fe75aa49072bf27);
+            
+        
+
+        marker_1b67e41ef9f54ecadca8a841c80ba08b.bindPopup(popup_f96f43662f9d3d9cda6dd4c7e7573314)
+        ;
+
+        
+    
+    
+            var marker_61805a5d5e5e3a66220a71cd9b6661dd = L.marker(
+                [22.211902510226448, 114.21460761803316],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_92617de65e3ceb1fd515f0ef7ffd2e46 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74de0b5a17d20866a44678f5dbaf3dc7 = $(`<div id="html_74de0b5a17d20866a44678f5dbaf3dc7" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/St. Stephen's Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_92617de65e3ceb1fd515f0ef7ffd2e46.setContent(html_74de0b5a17d20866a44678f5dbaf3dc7);
+            
+        
+
+        marker_61805a5d5e5e3a66220a71cd9b6661dd.bindPopup(popup_92617de65e3ceb1fd515f0ef7ffd2e46)
+        ;
+
+        
+    
+    
+            var marker_045a508ddda66f522b6f6e01d10ace68 = L.marker(
+                [22.220190457218354, 114.21429117400965],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_11cd99cb77db0092e32fde893bc6490e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b56d9b18214e381cb1e4afd7d67ce4b3 = $(`<div id="html_b56d9b18214e381cb1e4afd7d67ce4b3" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Stanley Main Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_11cd99cb77db0092e32fde893bc6490e.setContent(html_b56d9b18214e381cb1e4afd7d67ce4b3);
+            
+        
+
+        marker_045a508ddda66f522b6f6e01d10ace68.bindPopup(popup_11cd99cb77db0092e32fde893bc6490e)
+        ;
+
+        
+    
+    
+            var marker_c11f5ed1de979f47b58841f5c653832c = L.marker(
+                [22.4719901825197, 114.22958386901767],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_b4d2e0c6052f240cbcadf942a4f4cba4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fce046896fb8fbf76d9842eb32cbf78d = $(`<div id="html_fce046896fb8fbf76d9842eb32cbf78d" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Tai Po Lung Mei Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_b4d2e0c6052f240cbcadf942a4f4cba4.setContent(html_fce046896fb8fbf76d9842eb32cbf78d);
+            
+        
+
+        marker_c11f5ed1de979f47b58841f5c653832c.bindPopup(popup_b4d2e0c6052f240cbcadf942a4f4cba4)
+        ;
+
+        
+    
+    
+            var marker_86d035f05e8cf8c72182ac5fb928fdfd = L.marker(
+                [22.36921767295203, 114.08048648214934],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_b725e037ebfba33937a2bbca7c957de2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d49dbb52ff761c2278b691186cc9b702 = $(`<div id="html_d49dbb52ff761c2278b691186cc9b702" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Ting Kau Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_b725e037ebfba33937a2bbca7c957de2.setContent(html_d49dbb52ff761c2278b691186cc9b702);
+            
+        
+
+        marker_86d035f05e8cf8c72182ac5fb928fdfd.bindPopup(popup_b725e037ebfba33937a2bbca7c957de2)
+        ;
+
+        
+    
+    
+            var marker_beba7c6549aa4b4995a8fc5576365b87 = L.marker(
+                [22.22817643596967, 113.93543064775658],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_f12c1deefc50bc0207ca519dadadb36b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1594827d4e594529b7a9e28f57bcbec0 = $(`<div id="html_1594827d4e594529b7a9e28f57bcbec0" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Tong Fuk Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_f12c1deefc50bc0207ca519dadadb36b.setContent(html_1594827d4e594529b7a9e28f57bcbec0);
+            
+        
+
+        marker_beba7c6549aa4b4995a8fc5576365b87.bindPopup(popup_f12c1deefc50bc0207ca519dadadb36b)
+        ;
+
+        
+    
+    
+            var marker_2547160d5a8ed0926f794805362e763e = L.marker(
+                [22.35763500414017, 114.26789299053584],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_7b485c0d93e3f3777ceaea404cb3b63b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eec7ed2181c3aa875c4f447003b8d4f1 = $(`<div id="html_eec7ed2181c3aa875c4f447003b8d4f1" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Trio Beach .html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_7b485c0d93e3f3777ceaea404cb3b63b.setContent(html_eec7ed2181c3aa875c4f447003b8d4f1);
+            
+        
+
+        marker_2547160d5a8ed0926f794805362e763e.bindPopup(popup_7b485c0d93e3f3777ceaea404cb3b63b)
+        ;
+
+        
+    
+    
+            var marker_1d4aa19d3955233cb98fa66596250c29 = L.marker(
+                [22.232896981090565, 114.22337040616982],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_da68156d4e1232f7f75dfe82497a4ee3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd982201befc81568f61fc02f9045c75 = $(`<div id="html_fd982201befc81568f61fc02f9045c75" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Turtle Cove Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_da68156d4e1232f7f75dfe82497a4ee3.setContent(html_fd982201befc81568f61fc02f9045c75);
+            
+        
+
+        marker_1d4aa19d3955233cb98fa66596250c29.bindPopup(popup_da68156d4e1232f7f75dfe82497a4ee3)
+        ;
+
+        
+    
+    
+            var marker_f36ce665a92e7b5704da2a305cf8491d = L.marker(
+                [22.23412736896008, 113.95412028461548],
+                {}
+            ).addTo(map_c92135ba3b186d42d278a3c03d7e72c1);
+        
+    
+        var popup_b075a2b866350c9ad05a332ffe2c804f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45670ae4bca0959dd00124bbe9920c00 = $(`<div id="html_45670ae4bca0959dd00124bbe9920c00" style="width: 100.0%; height: 100.0%;">     <iframe src="Beach_HTML/Upper Cheung Sha Beach.html" width="500" height="500"  frameborder="0">         </div>`)[0];
+                popup_b075a2b866350c9ad05a332ffe2c804f.setContent(html_45670ae4bca0959dd00124bbe9920c00);
+            
+        
+
+        marker_f36ce665a92e7b5704da2a305cf8491d.bindPopup(popup_b075a2b866350c9ad05a332ffe2c804f)
+        ;
+
+        
+    
+</script>
+</html>
