@@ -1,0 +1,12 @@
+Year,Air Conditioning (Unit : Terajoule),Air Conditioning Percentage (%),Cooking (Unit : Terajoule),Cooking Percentage (%),Industrial Process/ Equipment (Unit : Terajoule),Industrial Process/ Equipment Percentage (%),Lighting (Unit : Terajoule),Lighting Percentage (%),Office Equipment (Unit : Terajoule),Office Equipment Percentage (%),Refrigeration (Unit : Terajoule),Refrigeration Percentage (%),Hot Water (Unit : Terajoule),Hot Water Percentage (%),Vertical Transport (Unit : Terajoule),Vertical Transport Percentage (%),Goods Vehicle (Unit : Terajoule),Goods Vehicle Percentage (%),Bus (Unit : Terajoule),Bus Percentage (%),Taxi (Unit : Terajoule),Taxi Percentage (%),Car (Unit : Terajoule),Car Percentage (%),Marine (Unit : Terajoule),Marine Percentage (%),Others (Unit : Terajoule),Others Percentage (%)
+2010,45511,16,33379,12,18620,7,19563,7,11758,4,9213,3,13936,5,,,28585,10,18842,7,13373,5,18247,6,8672,3,42031,15
+2011,44617,16,30830,11,15452,6,18357,7,12313,4,8117,3,13934,5,,,27818,10,18911,7,13593,5,18795,7,8245,3,48544,17
+2012,45091,16,30876,11,15514,6,18524,7,12896,5,7723,3,14007,5,,,26681,9,19128,7,13469,5,19432,7,8077,3,50636,18
+2013,43834,16,32205,12,15595,6,17774,6,11825,4,6886,2,14871,5,,,25126,9,19144,7,13319,5,20955,7,7739,3,50315,18
+2014,47277,17,32578,11,15722,6,17365,6,11583,4,6549,2,16116,6,,,24510,9,19285,7,13696,5,20641,7,7705,3,50956,18
+2015,46940,17,32461,11,15857,6,16914,6,11026,4,5812,2,16548,6,,,24782,9,19168,7,12437,4,21354,8,7792,3,51870,18
+2016,46455,16,33208,12,15127,5,16385,6,10709,4,5176,2,18023,6,,,24718,9,18918,7,12288,4,22189,8,7474,3,52893,19
+2017,46410,17,33510,12,15591,6,16026,6,10233,4,4454,2,18607,7,10568,4,24845,9,18663,7,10686,4,22005,8,7459,3,41947,15
+2018,48047,17,34947,12,15779,6,16255,6,10412,4,4292,2,19183,7,10329,4,24837,9,18286,6,9519,3,22421,8,7006,2,41172,15
+2019,47979,17,32871,12,15107,5,16094,6,10534,4,4363,2,18409,6,9749,3,24735,9,18028,6,10463,4,22925,8,7342,3,44928,16
+2020,48634,18,29668,11,14467,5,15786,6,10605,4,4492,2,18990,7,9593,4,23261,9,14811,5,8701,3,22067,8,7094,3,44320,16
