@@ -8,5 +8,5 @@ LI, Fuk Sang<br>
 Interactive story with visualizations avalible at [zfjiang.student.ust.hk/test.html](https://zfjiang.student.ust.hk/test.html)
 
 ## Source Code Index
-* [public_html](public_html): Website
+* [public_html](public_html): Website -> test.html
 * [sankey](sankey): Hong Kong electricity generation and consumption Sankey diagram
