@@ -1,0 +1,374 @@
+[
+  {
+    "Report_Year": "1990",
+    "Energy": {
+      "EG_and_Tg_Prod": 22900,
+      "Transport": 6160,
+      "Other": 4840
+    },
+    "Waste": 1550,
+    "IndProc_and_ProdUse": 215,
+    "AgrFor_and_Other": 139,
+    "Total": 35800
+  },
+  {
+    "Report_Year": "1991",
+    "Energy": {
+      "EG_and_Tg_Prod": 25600,
+      "Transport": 6720,
+      "Other": 4510
+    },
+    "Waste": 1600,
+    "IndProc_and_ProdUse": 638,
+    "AgrFor_and_Other": 121,
+    "Total": 39200
+  },
+  {
+    "Report_Year": "1992",
+    "Energy": {
+      "EG_and_Tg_Prod": 29200,
+      "Transport": 7110,
+      "Other": 4720
+    },
+    "Waste": 1660,
+    "IndProc_and_ProdUse": 651,
+    "AgrFor_and_Other": 99,
+    "Total": 43500
+  },
+  {
+    "Report_Year": "1993",
+    "Energy": {
+      "EG_and_Tg_Prod": 29700,
+      "Transport": 7210,
+      "Other": 4320
+    },
+    "Waste": 1750,
+    "IndProc_and_ProdUse": 724,
+    "AgrFor_and_Other": 86,
+    "Total": 43800
+  },
+  {
+    "Report_Year": "1994",
+    "Energy": {
+      "EG_and_Tg_Prod": 21900,
+      "Transport": 7520,
+      "Other": 4240
+    },
+    "Waste": 1770,
+    "IndProc_and_ProdUse": 830,
+    "AgrFor_and_Other": 76,
+    "Total": 36400
+  },
+  {
+    "Report_Year": "1995",
+    "Energy": {
+      "EG_and_Tg_Prod": 23000,
+      "Transport": 7430,
+      "Other": 4040
+    },
+    "Waste": 1940,
+    "IndProc_and_ProdUse": 935,
+    "AgrFor_and_Other": 84,
+    "Total": 37400
+  },
+  {
+    "Report_Year": "1996",
+    "Energy": {
+      "EG_and_Tg_Prod": 21800,
+      "Transport": 7410,
+      "Other": 3810
+    },
+    "Waste": 1900,
+    "IndProc_and_ProdUse": 952,
+    "AgrFor_and_Other": 84,
+    "Total": 35900
+  },
+  {
+    "Report_Year": "1997",
+    "Energy": {
+      "EG_and_Tg_Prod": 20000,
+      "Transport": 7540,
+      "Other": 3750
+    },
+    "Waste": 2000,
+    "IndProc_and_ProdUse": 1050,
+    "AgrFor_and_Other": 74,
+    "Total": 34500
+  },
+  {
+    "Report_Year": "1998",
+    "Energy": {
+      "EG_and_Tg_Prod": 22100,
+      "Transport": 7670,
+      "Other": 3560
+    },
+    "Waste": 1550,
+    "IndProc_and_ProdUse": 978,
+    "AgrFor_and_Other": 68,
+    "Total": 36000
+  },
+  {
+    "Report_Year": "1999",
+    "Energy": {
+      "EG_and_Tg_Prod": 20100,
+      "Transport": 7710,
+      "Other": 3540
+    },
+    "Waste": 1110,
+    "IndProc_and_ProdUse": 1020,
+    "AgrFor_and_Other": 82,
+    "Total": 33500
+  },
+  {
+    "Report_Year": "2000",
+    "Energy": {
+      "EG_and_Tg_Prod": 21200,
+      "Transport": 7270,
+      "Other": 2530
+    },
+    "Waste": 1120,
+    "IndProc_and_ProdUse": 978,
+    "AgrFor_and_Other": 75,
+    "Total": 33200
+  },
+  {
+    "Report_Year": "2001",
+    "Energy": {
+      "EG_and_Tg_Prod": 21600,
+      "Transport": 7090,
+      "Other": 2340
+    },
+    "Waste": 1260,
+    "IndProc_and_ProdUse": 862,
+    "AgrFor_and_Other": 82,
+    "Total": 33200
+  },
+  {
+    "Report_Year": "2002",
+    "Energy": {
+      "EG_and_Tg_Prod": 23500,
+      "Transport": 7530,
+      "Other": 2100
+    },
+    "Waste": 1490,
+    "IndProc_and_ProdUse": 503,
+    "AgrFor_and_Other": 79,
+    "Total": 35100
+  },
+  {
+    "Report_Year": "2003",
+    "Energy": {
+      "EG_and_Tg_Prod": 26500,
+      "Transport": 7610,
+      "Other": 2140
+    },
+    "Waste": 1800,
+    "IndProc_and_ProdUse": 540,
+    "AgrFor_and_Other": 72,
+    "Total": 38700
+  },
+  {
+    "Report_Year": "2004",
+    "Energy": {
+      "EG_and_Tg_Prod": 26400,
+      "Transport": 7600,
+      "Other": 2110
+    },
+    "Waste": 2000,
+    "IndProc_and_ProdUse": 634,
+    "AgrFor_and_Other": 65,
+    "Total": 38800
+  },
+  {
+    "Report_Year": "2005",
+    "Energy": {
+      "EG_and_Tg_Prod": 28600,
+      "Transport": 7490,
+      "Other": 2070
+    },
+    "Waste": 2230,
+    "IndProc_and_ProdUse": 857,
+    "AgrFor_and_Other": 72,
+    "Total": 41300
+  },
+  {
+    "Report_Year": "2006",
+    "Energy": {
+      "EG_and_Tg_Prod": 28700,
+      "Transport": 7650,
+      "Other": 2250
+    },
+    "Waste": 2160,
+    "IndProc_and_ProdUse": 1380,
+    "AgrFor_and_Other": 72,
+    "Total": 42300
+  },
+  {
+    "Report_Year": "2007",
+    "Energy": {
+      "EG_and_Tg_Prod": 29600,
+      "Transport": 7470,
+      "Other": 2200
+    },
+    "Waste": 2180,
+    "IndProc_and_ProdUse": 1340,
+    "AgrFor_and_Other": 50,
+    "Total": 42800
+  },
+  {
+    "Report_Year": "2008",
+    "Energy": {
+      "EG_and_Tg_Prod": 28000,
+      "Transport": 7450,
+      "Other": 2320
+    },
+    "Waste": 2160,
+    "IndProc_and_ProdUse": 1560,
+    "AgrFor_and_Other": 29,
+    "Total": 41500
+  },
+  {
+    "Report_Year": "2009",
+    "Energy": {
+      "EG_and_Tg_Prod": 29100,
+      "Transport": 7390,
+      "Other": 2210
+    },
+    "Waste": 2210,
+    "IndProc_and_ProdUse": 1370,
+    "AgrFor_and_Other": 25,
+    "Total": 42300
+  },
+  {
+    "Report_Year": "2010",
+    "Energy": {
+      "EG_and_Tg_Prod": 27400,
+      "Transport": 7340,
+      "Other": 2280
+    },
+    "Waste": 2200,
+    "IndProc_and_ProdUse": 1580,
+    "AgrFor_and_Other": 32,
+    "Total": 40800
+  },
+  {
+    "Report_Year": "2011",
+    "Energy": {
+      "EG_and_Tg_Prod": 29600,
+      "Transport": 7150,
+      "Other": 1950
+    },
+    "Waste": 2290,
+    "IndProc_and_ProdUse": 1350,
+    "AgrFor_and_Other": 32,
+    "Total": 42300
+  },
+  {
+    "Report_Year": "2012",
+    "Energy": {
+      "EG_and_Tg_Prod": 29400,
+      "Transport": 7090,
+      "Other": 2090
+    },
+    "Waste": 2340,
+    "IndProc_and_ProdUse": 1640,
+    "AgrFor_and_Other": 29,
+    "Total": 42600
+  },
+  {
+    "Report_Year": "2013",
+    "Energy": {
+      "EG_and_Tg_Prod": 30300,
+      "Transport": 7240,
+      "Other": 2080
+    },
+    "Waste": 2530,
+    "IndProc_and_ProdUse": 1690,
+    "AgrFor_and_Other": 31,
+    "Total": 43900
+  },
+  {
+    "Report_Year": "2014",
+    "Energy": {
+      "EG_and_Tg_Prod": 31200,
+      "Transport": 7290,
+      "Other": 1990
+    },
+    "Waste": 2500,
+    "IndProc_and_ProdUse": 1630,
+    "AgrFor_and_Other": 30,
+    "Total": 44700
+  },
+  {
+    "Report_Year": "2015",
+    "Energy": {
+      "EG_and_Tg_Prod": 27700,
+      "Transport": 7410,
+      "Other": 2020
+    },
+    "Waste": 2400,
+    "IndProc_and_ProdUse": 1710,
+    "AgrFor_and_Other": 30,
+    "Total": 41300
+  },
+  {
+    "Report_Year": "2016",
+    "Energy": {
+      "EG_and_Tg_Prod": 28000,
+      "Transport": 7400,
+      "Other": 2010
+    },
+    "Waste": 2450,
+    "IndProc_and_ProdUse": 1650,
+    "AgrFor_and_Other": 30,
+    "Total": 41500
+  },
+  {
+    "Report_Year": "2017",
+    "Energy": {
+      "EG_and_Tg_Prod": 26700,
+      "Transport": 7360,
+      "Other": 2020
+    },
+    "Waste": 2800,
+    "IndProc_and_ProdUse": 1720,
+    "AgrFor_and_Other": 30,
+    "Total": 40600
+  },
+  {
+    "Report_Year": "2018",
+    "Energy": {
+      "EG_and_Tg_Prod": 26700,
+      "Transport": 7470,
+      "Other": 2090
+    },
+    "Waste": 2980,
+    "IndProc_and_ProdUse": 1690,
+    "AgrFor_and_Other": 29,
+    "Total": 41000
+  },
+  {
+    "Report_Year": "2019",
+    "Energy": {
+      "EG_and_Tg_Prod": 26300,
+      "Transport": 7270,
+      "Other": 1940
+    },
+    "Waste": 2950,
+    "IndProc_and_ProdUse": 1710,
+    "AgrFor_and_Other": 28,
+    "Total": 40200
+  },
+  {
+    "Report_Year": "2020",
+    "Energy": {
+      "EG_and_Tg_Prod": 20400,
+      "Transport": 6650,
+      "Other": 1970
+    },
+    "Waste": 2960,
+    "IndProc_and_ProdUse": 1780,
+    "AgrFor_and_Other": 35,
+    "Total": 33800
+  }
+]
